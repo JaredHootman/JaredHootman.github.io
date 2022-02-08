@@ -1,0 +1,116 @@
+body {
+    background-color: darkgray;
+    color: darkblue;
+    background-image:linear-gradient(to bottom, #ffffff, lightskyblue);
+}
+#wrapper {
+     margin: 0 auto; 
+    width: 80%; 
+    min-width: 940px;
+    background-color: lightskyblue; 
+    color: darkblue; 
+    border-style: solid;
+}
+
+nav { 
+    float: left; 
+    width: 160px; 
+    font-weight: bold;
+    padding: 10px;
+    background-color: tan;
+    letter-spacing: 0.09em; 
+   
+    background-position: left;
+    background-position: bottom;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    height: 745px;
+}
+
+*{ box-sizing: border-box; }
+
+header {
+    background-color: darkblue; 
+    background-image: url(motorcycle1.jpg);
+    background-position: right;
+	background-repeat: no-repeat;
+    color: red;
+	height: 180px;
+	text-align: center;
+	padding-top: 30px;
+	padding-left: 3em;
+}
+
+main { margin-left: 160px;
+    padding: 10px;
+     background-color: lightskyblue;  }
+
+
+     footer { text-align: center;
+    font-style: italic;
+    background-color: oldlace;
+    clear: both; 
+    margin-left: 160px;
+     }
+  
+    h1 {
+         margin: 0;
+        padding: 10px; 
+    }
+    
+    #homehero {
+       
+        height: 300px;
+        width: 300px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-position: right;
+        margin-left: 760px;
+    }
+    section {
+        float: left;
+        width: 33%;
+        padding-left: 2em;
+        padding-right: 2em;
+      }
+      
+      table {
+        border: 2px solid tan;
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        padding: 0.5em;
+        border: 2px solid darkblue;
+      }
+      td {
+        text-align: center;
+      }
+      .text {
+        text-align: left;
+      }
+      tr:nth-of-type(odd) {
+        background-color: tan;
+      }
+      #special {
+        clear: both;
+      }
+      label {
+        float: left;
+        display: block;
+        text-align: right;
+        width: 140px;
+        padding-right: 5px;
+      }
+      input {
+        display: block;
+        margin-bottom: 20px;
+      }
+      textarea {
+        display: block;
+        margin-bottom: 20px;
+      }
+      input[type="submit"] {
+        margin-left: 140px;
+      }
